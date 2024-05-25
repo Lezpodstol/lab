@@ -69,7 +69,7 @@ def getInput():
     return input()
 
 def testInput(x):
-    return set(x) < set('-0123456789') and set(x[1:]) < set('0123456789')
+    return (x) < ('-0123456789') and (x[1:]) < ('0123456789')
 
 def strToInt(x):
     return int(x)
